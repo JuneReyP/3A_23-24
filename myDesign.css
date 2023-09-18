@@ -1,0 +1,29 @@
+ /* html selector */
+ a, table{
+    font-size: 40px;
+    color: black;
+}
+
+/* class selector */
+.link{
+    text-decoration: none;
+    border: 1px solid;
+}
+
+.title{
+    color: aliceblue;
+    border: 5px solid yellow;
+}
+
+.marPad{
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ID selector */
+#title{
+    color: aliceblue;
+    border: 5px solid yellow;
+    padding: 20px;
+}

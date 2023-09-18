@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sample</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: monospace;            
+            text-align: center;
+        }
+        .container, .left, .main_content, .right, nav, footer{
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: 200px auto 200px;
+            height: 81vh;
+            background-color: grey;
+        }
+        .left, .main_content, .right, nav, footer{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>
+            NavBar
+        </h1>
+    </nav>
+
+    <div class="container">
+        <div class="left">
+            <h1>SIDEBAR - Left</h1>
+        </div>
+
+        <main class="main_content">
+            <h1>Main</h1>
+        </main>
+
+        <div class="right">
+            <h1>SIDEBAR - Right</h1>
+        </div>
+    </div>
+
+    <footer>
+        <h1>FOOTER</h1>
+    </footer>
+</body>
+</html>
