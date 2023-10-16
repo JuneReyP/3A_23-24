@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="sample">
+
+    </p>
+    <button onclick="alert('You clicked the button!')">click me</button>
+    <button onclick="changeBG()">Change BG Color</button>
+    <br>
+
+    <!--  -->
+    <input type="text" id="num1" placeholder="Insert Num1">
+    <input type="text" id="num2" placeholder="Insert Num2">
+
+    <button onclick="myFuncWparam(document.getElementById('num1').value, document.getElementById('num2').value)">Add</button>
+    <h1 id="displayAns">Your answer!</h1>
+    <!--  -->
+
+    <!--  -->
+    <input type="text" id="fname" placeholder="Enter your Firstname">
+    <br>
+    <input type="text" id="lname" placeholder="Enter your Lastname">
+    <br>
+    <input type="text" id="address" placeholder="Enter your Address">
+    <br>
+    <button onclick="greetMe()">Greet Me!</button>
+    <!--  -->
+    <hr>
+    <fieldset>
+        <legend>Login</legend>
+        <div>
+            username: <input type="text" id="username">
+        </div> 
+        <br>       
+        <div>
+            password: <input type="text" id="pass">
+        </div>
+        <button onclick="login()">Login</button>
+    </fieldset>
+
+    <script src="myJS.js"></script>
+</body>
+</html>
